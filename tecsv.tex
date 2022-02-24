@@ -1,0 +1,130 @@
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Fred Harisson OUAMBA}} & Email: \href{mailto:harissonfred2@gmail.com}{harissonfred2@gmail.com}\\
+  \href{https://linkedin.com/in/fred-ouamba-9710891b5/}{Linkedin: Fred Ouamba} & Mobile:~~~+237 659290802 \\
+  \href{https://github.com/Hafro05}{Github: ~~github.com/Hafro05} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National Advanced School of Engineering}{Yaounde, Cameroon}
+      {Master's Science - Computer Science}{September 2020 - Today}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Relevant Courses:} Data Structures and Algorithms, Machine Learning Basics, Data Analysis, Probability and Statistics , Network Basics, Databases, OOP Java Programming }}}
+    
+    \resumeSubheading
+      {National Advanced School of Engineering}{Yaounde, Cameroon}
+      {Preparatory Classes}{September 2018 - June 2020}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Relevant Courses:} Algebra, Linear/Multilinear Algebra, Advanced Calculus, Probability and Statistics, C Programming}}}
+    \resumeSubHeadingListEnd
+	    
+\vspace{5pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~Python, C, C++, JavaScript, SQL, JAVA}
+	\resumeSubItem{Frameworks}{~~~~Scikit, AngularJS, NodeJS}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Docker, GIT, PostgreSQL, MySQL, StarUML}
+	\resumeSubItem{Platforms}{~~~~~~~Linux(Ubuntu, Kali), Web, Windows, Arduino, IBM Cloud}
+	\resumeSubItem{Soft Skills}{~~~~~~~Event Management, Writing, Public Speaking}
+
+\resumeSubHeadingListEnd
+\vspace{5pt}
+
+\section{Certifications}
+\resumeSubHeadingListStart
+\resumeSubItem{\href{https://coursera.org/share/73ede1702c02e01a73358d0f2346f52d}{What is Data Science?}}{Data Science Basics, Presentation of Data scientist work}
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{\href{https://github.com/Hafro05/umululeki}{Umululeki - School Counseling(Machine Learning, Classification)}}{ System of automatized School counseling for new bachelors. This web application made especially for Cameroonians take answers to binary questions(yes or no) and give the most suitable domain for someone and some schools in the domain. Tech: Python, Django, Scikit-Learn (March '20)}
+\vspace{2pt}
+%\resumeSubItem{\href{https://github.com/Hafro05/sms_sender}{Horizon sms (Web Development)}}{ Web Application managing users which permit them to send sms to their contacts. Those contacts should linked to the user and registered before. Tech: AngularJS, NodeJS, MongoDB (January '22)}
+%\vspace{2pt}
+\resumeSubHeadingListEnd
+\vspace{5pt}
+%-----------Awards-----------------
+\section{Honors and Awards}
+\begin{description}[font=$\bullet$]
+\item {Third Prize of Machine Learning Project Competition with Umululeki - March, 2019}
+\vspace{5pt}
+
+\end{description}
+
+\end{document}
